@@ -30,14 +30,24 @@ main {
 .anotherLocationContainer {
   height: 50%;
   width: 100%;
+  color: #fff;
 }
 .weatherDetailsContainer {
   height: 50%;
   width: 100%;
+  color: #fff;
 }
 
 .searchInput {
-  margin-top: 10px;
+  margin: 10px 0;
   width: 80%;
   height: 40px;
+}
+
+.countriesContainer {
+  width: 80%;
+  height: 80%;
+}
+.weatherDetails {
+  width: 80%;
 }
