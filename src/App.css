@@ -12,42 +12,70 @@
 main {
     height: 70%;
     width: 85%;
-    background-image: url("./sean-oulashin-KMn4VEeEPR8-unsplash.jpg");
+    background-image: url("./assets/images/sean-oulashin-KMn4VEeEPR8-unsplash.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .other {
-   height: 100%;
-  flex: 1;
-  background-color: rgba(0,0,0,0.4);
+    height: 100%;
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 .hourlyWeatherContainer {
-  height: 100%;
-  flex: 1;
+    height: 100%;
+    flex: 1;
 }
 
 .anotherLocationContainer {
-  height: 50%;
-  width: 100%;
-  color: #fff;
+    height: 50%;
+    width: 100%;
+    color: #fff;
 }
 .weatherDetailsContainer {
-  height: 50%;
-  width: 100%;
-  color: #fff;
+    height: 50%;
+    width: 100%;
+    color: #fff;
 }
 
 .searchInput {
-  margin: 10px 0;
-  width: 80%;
-  height: 40px;
+    margin: 10px 0;
+    width: 80%;
+    height: 40px;
 }
 
 .countriesContainer {
-  width: 80%;
-  height: 80%;
+    width: 80%;
+    height: 80%;
 }
 .weatherDetails {
-  width: 80%;
+    width: 80%;
+}
+
+.container {
+    /* height: 40px; */
+    width: 80%;
+}
+
+.addButton {
+    height: 40px;
+    width: 50px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+article {
+    cursor: pointer;
+}
+.temperature {
+    font-size: 80px;
+    margin-left: 10% ;
+}
+h1 {
+  font-size: 50px;
+  margin-left: 3%;
+}
+img {
+  height: 20px;
+  width: 20px;
+  margin-left: 5%;
 }

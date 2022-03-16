@@ -1,11 +1,28 @@
-export const SearchCountry = () => {
+import { useState } from "react";
+
+export const SearchCountry = ({ addNewCountry }) => {
+    const [country, setCountry] = useState("");
+    
+
     const onChange = (e) => {
-        console.log(e.target.value);
-    }
+        setCountry(e.target.value);
+    };
+
+    const onButton = () => {
+        if(country === "") return;
+        addNewCountry({ country: country });
+        setCountry('');
+    };
 
     return (
         <>
-            <input className="searchInput" onChange={ onChange }/>
+            <div className="flex container align-center">
+                <input className="searchInput" onChange={onChange} />
+                <button className="addButton" onClick={onButton}>
+                    add
+                </button>
+            </div>
+
         </>
-    )
-}
+    );
+};

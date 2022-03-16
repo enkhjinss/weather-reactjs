@@ -1,5 +1,6 @@
 import './App.css';
-import TheWeather from "./TheWeather";
+
+import TheWeather from "./components/TheWeather";
 
 function App() {
   return <TheWeather />
